@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper black">
+                <a href="#!" class="brand-logo"> Al Mahdi Center</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="PrayTimes.html">Prayer Times</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="zoom.html">Join us om Zoom</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="PrayTimes.html">Prayer Times</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="zoom.html">Join us om Zoom</a></li>
+        </ul>
+    </header>
+    <div class="iframe-container" style="overflow: hidden; padding-top: 56.25%; position: relative;">
+    <iframe allow="microphone; camera" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="https://success.zoom.us/wc/join/8349322739" frameborder="0"></iframe>
+
+    </div>
+<!-- <div class="iframe-container" style="overflow: hidden; padding-top: 56.25%; position: relative;">
+    <iframe allow="microphone; camera" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="https://success.zoom.us/wc/join/{meeting-id}" frameborder="0"></iframe>
+</div> -->
+
+<!-- <div class="iframe-container" style="overflow: hidden; padding-top: 56.25%; position: relative;">
+    	<iframe allow="microphone; camera" style="border: 0; height: 100%; left: 0; position: absolute; top: 0; width: 100%;" src="https://success.zoom.us/wc/join/9733973398" frameborder="0"></iframe>
+    </div> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script >
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+
+});
+
+  
+    </script>
+</body>
+</html>
