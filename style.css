@@ -13,6 +13,9 @@ body{
 #container{
     background-color: white;
    margin-top: 40px;
+   margin-bottom: 40px ;
+   margin-left: 100px;
+   margin-right: 100px;
   padding: 40px;
 
 }
@@ -33,7 +36,7 @@ img{
     align-items: center;
    
 }
-#container{
+container{
     background-color: white;
     height: auto;
     margin-bottom: 20px;
@@ -54,6 +57,7 @@ img{
 /*praypage*/
 #table-title{
     text-align: center;
+
 }
 /*contact page*/
 .contact{
@@ -136,3 +140,20 @@ main {
 #PratTimetext{
     text-align: center;
 }
+
+hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  /* .card img {
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+}
+.card img.materialized.active {
+    max-height: none;
+    max-width: none;
+    object-fit: none;
+} */

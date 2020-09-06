@@ -96,7 +96,7 @@ function writeIslamicDate(adjustment) {
    
 
 }
-document.getElementById('date').innerHTML = writeIslamicDate();
+document.getElementById('date').innerHTML = writeIslamicDate(-1);//Add postive number to add one day or negitive number to minus one day to the month. 
 document.write(writeIslamicDate());
 console.log(writeIslamicDate());
 // var hijriDate = document.getElementById("#date");

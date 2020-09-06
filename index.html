@@ -1,17 +1,40 @@
 <!DOCTYPE html>
-<html lang="ar" >
-
-<head>
-    <meta charset="utf-8">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+  	
+            .carousel .carousel-item>img{
+                height: 100%;
+                width: 100%;
+      
+            }
+            .next, .prev{
+                position: absolute;
+                top:45%;
+                color:white;
+                cursor: pointer;
+      
+            }
+      
+            .prev{
+                left: 0px;
+            }
+          
+          .next{
+              right:0px;
+          }
+      
+      
+        </style>
+    </head>
 <body>
     <header>
         <nav>
@@ -36,8 +59,7 @@
                     <li><a href="zoom.html">Join us om Zoom</a></li>
         </ul>
     </header>
-    
-<section id="container" >
+    <!-- <section >
         
         <div class="slider">
             <ul class="slides">
@@ -79,94 +101,141 @@
                 </li>
             </ul>
         </div>
-        <div id="container"class="container">
-            <div class="row">
-                <div class="col s12">`
-                    <aside   class="benefits" >
-            
-                        <p>اوقات الصلاة في مدينة سياتل</p>
-                        <p align="center">Seattle, WA, USA<p>
-                            <div  id="date"></div>
-                            <div align="center" id="table"></div>
-                  
-            </aside>
-                </div>
+     
+    </section> -->
+
+
+	<div class="full-silder">
+    <div class="carousel carousel-slider"  data-indicators="true">
+        <a class="carousel-item" href="#one!"><img src="./images/d.jpeg"></a>
+        <a class="carousel-item" href="#two!"><img src="./images/e.jpeg"></a>
+        <a class="carousel-item" href="#three!"><img src="./images/a.jpeg"></a>
+        <a class="carousel-item" href="#four!"><img src="./images/c.jpeg"></a>
+        <a class="carousel-item" href="#four!"><img src="./images/f.jpeg"></a>
+        <a class="carousel-item" href="#four!"><img src="./images/b.jpeg"></a>
+      </div>
+    </div>
+    <div class="next green"><i class="material-icons large">navigate_next</i></div>
+   	<div class="prev green"><i class="material-icons large">navigate_before</i></div>
+
+    <br><br>
+    <div  id="container" class="z-depth-3" class="container">
+        <div class="row">
+            <div class="col l12 m12 s12">`
+              
+        
+                    <p align="center">Seattle, WA, USA - اوقات الصلاة في مدينة سياتل</p>
+                        <p align="center" id="date"></p>
+                        <p align="center" id="dateE"></p>
+                        <div align="center" id="table"></div>
+              
+      
             </div>
         </div>
-    </section>
-        <main>
-            <section id="search-engine-optimization" class="service">
-                <img src="./images/a.jpeg" alt="Notebook with search engine optimization concepts on cover on a cluttered wooden table." class="float-left" />
-                <h4 dir="rtl" > برنامج عاشوراء مركز الامام المهدي في سياتل </h4>
-                <p dir="rtl" >
-                 .بسبب فايروس كورونا وحرصنا على سلامة الجميع, الشعائر  الحسينية ستكون على  الانترنت فقط .سوف يتم نشر مواقيت توزيع ثواب الامام الحسين على  موقعنا بالاضافة الى مواقع التواصل الاجتماعي
-                </p>
-            </section>
-            <section id="search-engine-optimization" class="service">
-                <img src="./images/facebook.jpg" alt="Notebook with search engine optimization concepts on cover on a cluttered wooden table." class="float-left" />
-                <h4  dir="rtl" >مركز الامام المهدي في سياتل</h4>
-                
-                <p dir="rtl" >
-                    يدعوكم لحضور مجالس عاشواء على رابط ال ZOOM ابتداءً من ليلة غد الخميس 08/20/20 الساعه التاسعه 9 مساء
-ويستظيف المركز سماحة الشيخ ابو فاطمه البصري
-<a href="https://us02web.zoom.us/j/8349322739">Click here</a> </p>
-
-                <p>
-                    Meeting ID: 834 932 2739
-                    One tap mobile
-                    +12532158782,,8349322739# US (Tacoma)
-                    +16699006833,,8349322739# US (San Jose)
-                    Dial by your location
-                            +1 253 215 8782 US (Tacoma)
-                            +1 669 900 6833 US (San Jose)
-                            +1 346 248 7799 US (Houston)
-                            +1 312 626 6799 US (Chicago)
-                            +1 929 205 6099 US (New York)
-                            +1 301 715 8592 US (Germantown)
-                    Meeting ID: 834 932 2739
-                </p>
-            </section>
-          
-        </main>
-        
-  
-     
-      
-    <footer class="page-footer black">
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+    </div>
+   <div class="container">
+        <div class="row ">
+            <div  class="col l6 s12 m7" >
+              <div class="card large z-depth-3">
+                <div class="card-image" >
+                  <img src="images/facebook.jpg">
+                  <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
             </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-              </ul>
-            </div>
+            <div  class="col l6 s12 m7" >
+                <div class="card large z-depth-3">
+                  <div class="card-image">
+                    <img src="images/facebook.jpg">
+                    <span class="card-title">Card Title</span>
+                  </div>
+                  <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                    I am convenient because I require little markup to use effectively.</p>
+                  </div>
+                  <div class="card-action">
+                    <a href="#">This is a link</a>
+                  </div>
+                </div>
+              </div>
           </div>
-        </div> -->
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <footer class="page-footer black">
+       
         <div class="footer-copyright ">
           <div class="container">
           © 2020 Al Mahdi Center in Seattle  All Rights Reserved
-          <a class="grey-text text-lighten-4 right" href="https://mazinabed-jq6a3jp7g.now.sh/"><span>This website was created By : </span> Mazin Abed</a>
+          
+          </div>
+          <div>
+            <a class="grey-text text-lighten-4 right" href="https://mazinabed-jq6a3jp7g.now.sh/"><span>This website was created By : </span> Mazin Abed</a>
           </div>
         </div>
       </footer>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+      
+ 
+    <script type="text/javascript" src="PrayTimes.js"></script>
+    <script src="dayprayTime.js"></script>
+    <script src="hijri2.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="PrayTimes.js"></script>
-    <script src="script.js"></script>
-    <script src="hijri2.js"></script>
-    <!-- <script src="hijri.js"></script> -->
-</body>
+    
+    <!-- <script>
+      
+  
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems);
+  });
 
+ var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+
+  });
+
+    </script> -->
+
+    <script>
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+            $('.carousel').carousel();
+    
+            // for next slide
+            $('.next').click(function(){
+                $('.carousel').carousel('next');
+            });
+          
+          // for prev slide
+          $('.prev').click(function(){
+                $('.carousel').carousel('prev');
+            });
+    var m = moment().format('LLLL');
+$("#dateE").text(m)
+        });
+       
+    </script>
+         
+</body>
 </html>
