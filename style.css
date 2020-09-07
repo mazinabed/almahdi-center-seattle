@@ -147,6 +147,20 @@ hr {
        -moz-box-sizing: content-box;
             box-sizing: content-box;
   }
+  .iframe-container {
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9*/
+    position: relative;
+  }
+  
+  .iframe-container iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+  }
   /* .card img {
     max-height: 200px;
     max-width: 200px;
