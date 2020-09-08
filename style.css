@@ -182,6 +182,10 @@ hr {
 } */
 
 /*  fontSize: */
+
+#aboutFont{
+    font-family: 'Open Sans', sans-serif;
+}
 table{
     margin: 20px;
 }
