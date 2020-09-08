@@ -10,12 +10,12 @@ body{
 /* footer{
     color: black;
 } */
-#container{
+.container{
     background-color: white;
    margin-top: 40px;
    margin-bottom: 40px ;
-   margin-left: 100px;
-   margin-right: 100px;
+   /* margin-left: 100px;
+   margin-right: 100px; */
   padding: 40px;
 
 }
@@ -173,6 +173,9 @@ hr {
 } */
 
 /*  fontSize: */
+table{
+    margin: 20px;
+}
 .xs   {font-size: 0.75rem}
 .sm   {font-size: 0.875rem}
 .base {font-size: 1rem}
@@ -186,3 +189,4 @@ hr {
 .fs6  {font-size: 2.2vw}
 .fs7  {font-size: 2.4vw}
 .fs8  {font-size: 2.6vw}
+
