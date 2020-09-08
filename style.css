@@ -151,6 +151,8 @@ hr {
     overflow: hidden;
     padding-top: 56.25%; /* 16:9*/
     position: relative;
+    height: 100%;
+    width: 100%;
   }
   
   .iframe-container iframe {
