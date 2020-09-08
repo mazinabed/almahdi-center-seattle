@@ -13,7 +13,9 @@ function makeTable() {
            };
            var times = prayTimes.getTimes(date, [47.608013, -122.335167], -8);
            var tbody = document.createElement('table');
+           
            tbody.appendChild(makeTableRow(items, items, 'head-row'));
+           
 
            
         //    var klass = date ? 'today-row' : '';
@@ -24,8 +26,10 @@ function makeTable() {
 
         function makeTableRow(data, items) {
             var row = document.createElement('tr');
+            
             for (var i in items) {
                 var cell = document.createElement('td');
+                cell.setAttribute("style", " color:blue; font-weight: bold; background: white; padding: 5px; margin-left: 35px;");
                 cell.innerHTML = data[i];
                 cell.style.width = i=='day' ? '2.5em' : '3.7em';
                 row.appendChild(cell);

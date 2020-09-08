@@ -162,6 +162,13 @@ hr {
      position: absolute;
      top: 0;
      width: 100%;
+     
+  }
+  .flow-text{
+    font-family: 'Reem Kufi', sans-serif;
+  }
+  #date, #dateE, h4{
+    font-family: 'Reem Kufi', sans-serif;
   }
   /* .card img {
     max-height: 200px;

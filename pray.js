@@ -32,7 +32,9 @@
             };
              
      var tbody = document.createElement('tbody');
+     
      tbody.appendChild(makeTableRow(items, items, 'head-row'));
+     
 
      var date = new Date(year, month, 1);
      var endDate = new Date(year, month+ 1, 1);
