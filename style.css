@@ -3,6 +3,10 @@ body{
     min-height: 100vh;
     flex-direction: column;
     background-color: rgb(233, 231, 231);
+    background-image: url("./images/bc.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
   }
   main {
     flex: 1 0 auto;
@@ -17,6 +21,7 @@ body{
    /* margin-left: 100px;
    margin-right: 100px; */
   padding: 40px;
+  
 
 }
 #prayerTable{
