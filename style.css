@@ -103,7 +103,7 @@ container{
 }
 /* FLOATS */
 
-.float-left {
+/* .float-left {
     float: left;
     margin-right: 25px;
 }
@@ -115,7 +115,7 @@ container{
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
 .benefit h3 {
     margin-bottom: 10px;
@@ -218,3 +218,10 @@ table{
 .fs7  {font-size: 2.4vw}
 .fs8  {font-size: 2.6vw}
 
+  td, th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    border-radius: 2px;
+}
