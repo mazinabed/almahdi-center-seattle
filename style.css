@@ -4,9 +4,9 @@ body{
     flex-direction: column;
     background-color: rgb(233, 231, 231);
     background-image: url("./images/bc.jpg");
-    background-repeat: repeat-y;
+    /* background-repeat: repeat-y; */
     background-position: center;
-    background-size: cover;
+    /* background-size: cover; */
   }
   main {
     flex: 1 0 auto;
