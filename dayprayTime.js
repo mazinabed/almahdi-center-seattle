@@ -29,7 +29,7 @@ function makeTable() {
             
             for (var i in items) {
                 var cell = document.createElement('td');
-                cell.setAttribute("style", " color:blue; font-weight: bold; background: white; padding: 5px; margin-left: 35px;");
+                cell.setAttribute("style", " color:blue; font-weight: bold; background: white; padding: 5px;");
                 cell.innerHTML = data[i];
                 cell.style.width = i=='day' ? '2.5em' : '3.7em';
                 row.appendChild(cell);
