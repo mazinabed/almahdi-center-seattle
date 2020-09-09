@@ -14,6 +14,11 @@ body{
 /* footer{
     color: black;
 } */
+.framepage{
+    height: 100%;
+    width: 100%;
+}
+
 .container{
     background-color: white;
    margin-top: 40px;
